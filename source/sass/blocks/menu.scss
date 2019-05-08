@@ -1,0 +1,18 @@
+.menu{
+    @include tablets{
+        display: none;
+    }
+    &__list{
+        display: flex;
+    }
+    &__item{
+        margin-left: 27px;
+        &:first-child{
+            margin-left: 0;
+        }
+    }
+    &__link{
+        color: $white;
+        font-size: 18px;
+    }
+}

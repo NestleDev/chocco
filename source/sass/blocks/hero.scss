@@ -1,0 +1,26 @@
+.hero{
+    background: url('../images/candy.png')  85% 50%, url('../images/texture.png') bottom right, $blue;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    &__container{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 25px 0 50px 0;
+    }
+}
+
+.leaves, .leave{
+    position: absolute;
+}
+
+.leaves{
+    bottom: -40px;
+    right: -10%;
+}
+
+.leave{
+    bottom: -50px;
+    left: -50px;
+}
